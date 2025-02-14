@@ -5,29 +5,30 @@
     <style>
       article {
         height: 400px;
-        width: 500px;
+        width: 400px;
         margin: auto;
-        border: 0.4px solid black;
-        color: rgba(0, 0, 0, 1);
-        padding: 15px;
-        padding-left: 60px;
+        border: 0.1px solid rgba(0, 0, 0, 0.3);
+        color: rgba(0, 0, 0, 0.7);
+        padding: 10px 40px 10px 40px;
         box-sizing: border-box;
         font-family: sans-serif;
+        margin-bottom: 0px;
       }
 
-      #border {
+      #emptyBorder {
         width: 40px;
-        border: 1px solid black;
+        border: 1px solid rgba(0, 0, 0, 0.7);
       }
 
       #heading {
         text-align: left;
         font-size: 30px;
+        margin-bottom: 15px;
       }
 
       #subContent {
-        font-size: 20px;
-        color: rgba(0, 0, 0, 0.5);
+        font-size: 19px;
+        color: rgba(0, 0, 0, 0.4);
       }
 
       #try_now {
@@ -44,16 +45,17 @@
       }
     </style>
   </head>
+
   <body>
     <article>
       <p id="heading">Build your first chatbot in 10 minutes!</p>
-      <div id="border"></div>
+      <div id="emptyBorder"></div>
       <p id="subContent">
         Have a bot answering questions from customers on your website within 10
         minutes of signing up for ChatBot.
       </p>
 
-      <div id="try_now">Try Now -></div>
+      <div id="try_now">Try Now &RightArrow;</div>
       <p id="subContent2">
         By clicking try now you create an account and agree to our Terms and
         Conditions and Privacy Policy.
