@@ -1,65 +1,68 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CHATBOT</title>
+    <title>Chatbot</title>
+
     <style>
-      article {
-        height: 400px;
-        width: 400px;
-        margin: auto;
-        border: 0.1px solid rgba(0, 0, 0, 0.3);
-        color: rgba(0, 0, 0, 0.7);
-        padding: 10px 40px 10px 40px;
-        box-sizing: border-box;
+      * {
+        margin: 0px;
+        padding: 0px;
         font-family: sans-serif;
-        margin-bottom: 0px;
+        color: rgb(0, 0, 0, 0.5);
       }
 
-      #emptyBorder {
-        width: 40px;
-        border: 1px solid rgba(0, 0, 0, 0.7);
+      section {
+        box-sizing: border-box;
+        width: 35%;
+        margin: 10% auto;
+        border: solid 0.5px;
+        padding: 4%;
       }
 
-      #heading {
-        text-align: left;
+      section > * {
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        font-weight: 200;
         font-size: 30px;
-        margin-bottom: 15px;
+        color: rgba(0, 0, 0, 0.7);
       }
 
-      #subContent {
-        font-size: 19px;
+      #usage {
+        font-weight: 100;
+        font-size: 20px;
         color: rgba(0, 0, 0, 0.4);
       }
 
       #try_now {
-        text-align: center;
+        display: block;
+        padding: 10px;
         background-color: #4184e1;
-        padding: 9px;
-        border-radius: 25px;
+        text-align: center;
         color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        border-radius: 30px;
       }
 
-      #subContent2 {
-        font-size: 15px;
+      #tnc {
         color: rgba(0, 0, 0, 0.3);
       }
     </style>
   </head>
-
   <body>
-    <article>
-      <p id="heading">Build your first chatbot in 10 minutes!</p>
-      <div id="emptyBorder"></div>
-      <p id="subContent">
+    <section>
+      <h1>Build your first Chatbot in 10 minutes!</h1>
+      <p id="usage">
         Have a bot answering questions from customers on your website within 10
         minutes of signing up for ChatBot.
       </p>
-
-      <div id="try_now">Try Now &RightArrow;</div>
-      <p id="subContent2">
+      <a id="try_now">try now &rightarrow;</a>
+      <p id="tnc">
         By clicking try now you create an account and agree to our Terms and
         Conditions and Privacy Policy.
       </p>
-    </article>
+    </section>
   </body>
 </html>
