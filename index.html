@@ -4,7 +4,7 @@
     <title>CHATBOT</title>
     <style>
       article {
-        height: 500px;
+        height: 400px;
         width: 500px;
         margin: auto;
         border: 0.4px solid black;
@@ -15,25 +15,48 @@
         font-family: sans-serif;
       }
 
+      #border {
+        width: 40px;
+        border: 1px solid black;
+      }
+
       #heading {
         text-align: left;
         font-size: 30px;
-        border-bottom: 1px solid black;
       }
 
       #subContent {
         font-size: 20px;
         color: rgba(0, 0, 0, 0.5);
       }
+
+      #try_now {
+        text-align: center;
+        background-color: #4184e1;
+        padding: 9px;
+        border-radius: 25px;
+        color: white;
+      }
+
+      #subContent2 {
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.3);
+      }
     </style>
   </head>
   <body>
     <article>
       <p id="heading">Build your first chatbot in 10 minutes!</p>
-
+      <div id="border"></div>
       <p id="subContent">
         Have a bot answering questions from customers on your website within 10
         minutes of signing up for ChatBot.
+      </p>
+
+      <div id="try_now">Try Now -></div>
+      <p id="subContent2">
+        By clicking try now you create an account and agree to our Terms and
+        Conditions and Privacy Policy.
       </p>
     </article>
   </body>
